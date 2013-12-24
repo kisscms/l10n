@@ -1,0 +1,25 @@
+{
+	"name": "kisscms/l10n",
+	"type": "library",
+	"description": "Localisation plugin for KISSCMS",
+	"keywords": ["localisation","kisscms"],
+	"homepage": "http://kisscms.com",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Makis Tracend",
+			"email": "makis@makesit.es",
+			"homepage": "http://github.com/tracend",
+			"role": "Lead Developer"
+		}
+	],
+	"require": {
+		"php": ">=5.3.0"
+	},
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "http://github.com/kisscms/l10n"
+		}
+	]
+}
