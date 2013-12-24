@@ -7,17 +7,18 @@
  *
  */
 
-if ( class_exists("Mobile_Detect") ) return;
+if ( !class_exists("L10n") ){
 
 class L10n {
 
 	public function load(){
 
-		$file = $getPath("public/data/locale.json");
-		var_dump($file);
+		$file = getPath("public/data/locale.json");
 
 		$locale = @file_get_contents( $file );
-		return json_decode( $locale );
+		return json_decode( $locale, true );
 
 	}
+}
+
 }
