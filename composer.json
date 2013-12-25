@@ -1,5 +1,6 @@
 {
 	"name": "kisscms/l10n",
+	"version": "0.1.0",
 	"type": "library",
 	"description": "Localisation plugin for KISSCMS",
 	"keywords": ["localisation","kisscms"],
